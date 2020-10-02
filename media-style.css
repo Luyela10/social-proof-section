@@ -1,0 +1,260 @@
+/* For small device of less or equal than 500px width */
+
+@media screen and (max-width: 576px) {
+  h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  /* Top-section */
+
+  .top-section {
+    padding: 15% 15% 3%;
+  }
+
+  .rates-section {
+    padding-bottom: 100px;
+  }
+  .product-text {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .rates-preview {
+    padding-bottom: 10px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+  }
+
+  .rates-preview:nth-child(1) {
+    left: 15px;
+  }
+
+  .rates-preview:nth-child(2) {
+    left: 15px;
+  }
+
+  .rates-preview:nth-child(3) {
+    left: 15px;
+  }
+
+  .rates-icon {
+    padding-top: 10px;
+  }
+
+  /* Bottom-section */
+
+  .card-column {
+    padding: 0 3%;
+  }
+
+  .buyer-testimonial {
+    color: var(--SecondaryColor);
+    font-size: 15px;
+  }
+
+  /* Attribution section */
+
+  .attribution {
+    padding: 15% 15% 5%;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+/* For screen device width of min-width 510px to max-width 670px */
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 50px;
+  }
+
+  /* Top-section */
+
+  .top-section {
+    padding: 15% 15% 3%;
+  }
+
+  .rates-section {
+    padding-bottom: 100px;
+  }
+
+  .product-text {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .rates-preview {
+    padding-bottom: 10px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+  }
+
+  .rates-preview:nth-child(1) {
+    left: 15px;
+  }
+
+  .rates-preview:nth-child(2) {
+    left: 15px;
+  }
+
+  .rates-preview:nth-child(3) {
+    left: 15px;
+  }
+
+  .rates-icon {
+    padding-top: 10px;
+  }
+
+  /* Bottom-section */
+
+  .card-column {
+    padding: 0 3%;
+  }
+
+  .buyer-testimonial {
+    color: var(--SecondaryColor);
+    font-size: 15px;
+  }
+
+  /* Attribution section */
+
+  .attribution {
+    padding: 10% 15% 5%;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+/* For screen device width of min-width 768px to max-width 990px */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    width: 100%;
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  /* Top-section */
+
+  .top-section {
+    padding: 7% 10% 3%;
+  }
+
+  .product-text {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .rates-preview {
+    width: 100%;
+  }
+
+  .rates-preview:nth-child(2) {
+    left: 0px;
+  }
+
+  .rates-preview:nth-child(3) {
+    left: 0px;
+  }
+
+  .rates-icon {
+    padding: 0px;
+  }
+
+  span {
+    display: block;
+    padding-left: 10px;
+  }
+
+  .rates-text {
+    padding: 0px;
+  }
+
+  .rates-text p {
+    padding: 12px 0px 0px 10px;
+  }
+
+  /* Bottom-section */
+
+  .bottom-section {
+    padding: 0% 10% 3%;
+  }
+
+  .card2 {
+    top: 0px;
+  }
+
+  .card3 {
+    left: 25%;
+  }
+
+  .buyer-testimonial {
+    font-size: 12px;
+  }
+
+  /* Attribution section */
+
+  .attribution {
+    padding: 10% 15% 5%;
+    text-align: center;
+  }
+}
+
+/* For screen device width of min-width 510px to max-width 670px */
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  h1 {
+    width: 100%;
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  /* Top-section */
+
+  .product-text {
+    width: 90%;
+  }
+
+  .rates-preview {
+    width: 100%;
+  }
+
+  .rates-icon {
+    padding: 0px;
+  }
+
+  span {
+    display: block;
+    padding-left: 10px;
+  }
+
+  /* Bottom-section */
+
+  .card3 {
+    position: relative;
+    top: 35px;
+  }
+
+  .col-img {
+    padding: 0px;
+  }
+
+  .buyer-profile {
+    padding: 0px;
+  }
+
+  .buyer-testimonial {
+    font-size: 12px;
+  }
+}

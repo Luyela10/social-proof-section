@@ -1,0 +1,138 @@
+:root {
+  --MainColor: hsl(300, 43%, 22%);
+  --SecondaryColor: hsl(303, 10%, 53%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: 800;
+  color: var(--MainColor);
+  width: 80%;
+}
+
+/* Sections */
+
+.section {
+  padding: 0;
+  margin: 0;
+}
+
+/* Top-section */
+
+.top-section {
+  padding: 7% 15% 3%;
+}
+
+.product-text {
+  color: var(--SecondaryColor);
+  font-size: 14px;
+  width: 80%;
+}
+
+.rates-preview {
+  padding-bottom: 10px;
+  background-color: #ebebeb;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  width: 80%;
+  height: 40px;
+  align-items: center;
+}
+
+.rates-preview:nth-child(1) {
+  position: relative;
+  top: 10px;
+}
+
+.rates-preview:nth-child(2) {
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.rates-preview:nth-child(3) {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.icon {
+  font-size: 12px;
+  color: orange;
+}
+
+.rates-text {
+  padding: 0px;
+}
+
+.rates-text p {
+  padding-top: 12px;
+  color: var(--MainColor);
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* Bottom-section */
+
+.bottom-section {
+  padding: 0% 15% 3%;
+}
+
+.buyer-card {
+  background-color: var(--MainColor);
+  border-radius: 8px;
+}
+
+.card2 {
+  position: relative;
+  top: 15px;
+}
+
+.card3 {
+  position: relative;
+  top: 30px;
+}
+
+.card-column {
+  padding: 0;
+  margin: 0;
+}
+
+.card-img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.buyer-profile p {
+  font-size: 12px;
+}
+
+.buyer-name {
+  color: white;
+}
+
+.buyer-status {
+  position: relative;
+  bottom: 13px;
+  color: #da70d6;
+}
+
+.buyer-testimonial {
+  color: var(--SecondaryColor);
+  font-size: 9.5px;
+}
+
+/* Attribution section */
+
+.attribution {
+  padding: 7% 15% 5%;
+  text-align: center;
+}
